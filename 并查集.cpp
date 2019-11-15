@@ -22,9 +22,8 @@ void join(int x, int y)                           //判断x y是否连通，
 		pre[fx] = fy;
 }
 
-
 注意种类并查集：
-食物链类型题目：
+食物链类型题目：POJ 1182为例子
 1. 选择使用取余的方法：
 const int maxn = 5 * 1e4 + 5;
 
