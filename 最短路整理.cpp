@@ -3,7 +3,7 @@
 using namespace std;
 
 /**<Floyd算法是多源最短路算法，复杂度最高（n^3），通常用在点比较少的起点不固定的问题中。能解决负边（负权）但不能解决负环*/
-/**#define MAX 65535
+#define MAX 65535
 const int N;
 int chara[N][N];
 int p[N][N];
@@ -27,11 +27,11 @@ void Folyd(){
         }
     }
 }
-*/
+
 
 
 ///Dijkstra算法
-/**#define MAX 65535
+#define MAX 65535
 const int N;
 int chara[N][N],dis[N];
 int p[N],vis[N];
@@ -62,10 +62,10 @@ void Dijkstra(int src){
         }
     }
 }
-*/
+
 
 ///SPFA算法    如何判断成环：在储存边时，记录下每个点的入度，每个点入队的时候记录一次，如果入队的次数大于这个点的入度，说明从某一条路进入了两次，即该点处成环。
-/**const int INF = 0x3f3f3f3f;
+const int INF = 0x3f3f3f3f;
 const int N;
 int n;
 int d[N], vis[N];
@@ -97,7 +97,7 @@ void SPFA(int src){
         }
     }
     return;
-}*/
+}
 
 
 int main()
