@@ -47,7 +47,7 @@ void Dijkstra(int src){
     for(int i = 1; i <= n; ++i){
         int k,ans = MAX;
         for(int j = 1; j <= n; j++){
-            if(vis[j] && dis[j] <ans){
+            if(!vis[j] && dis[j] <ans){
                 k = j;
                 ans = dis[j];
             }
