@@ -2,8 +2,10 @@
 Code template
 
 
-This is Muqiao's template code. \n
-It may not be purely original. \n
+This is Muqiao's template code.
+
+It may not be purely original.
+
 But if you want to reprint it, please explain the source of reprint.
 
 ----------------------------------------------------------------------------------------------------------------------
